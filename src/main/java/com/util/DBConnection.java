@@ -11,8 +11,8 @@ public class DBConnection {
 			// Class.forName("com.mysql.jdbc.Driver");
 			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
-					"jdbc:postgresql://ec2-54-83-58-17.compute-1.amazonaws.com.:5432/d84m9dg8otnkdk?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory",
-					"agpalwhlbgugom", "a803ffae71a7dbed4ac0e17726fd9a073c9e29fbcbff7ef99c63b9e04f5b3e1e");
+					"jdbc:postgresql://ec2-107-22-235-167.compute-1.amazonaws.com:5432/d8ldkj1qams63b?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory",
+					"dnycfpxxjiojfx", "c21683de800f16f5159d1c6ef825a848c84734065f02b23440ffc1faf29b6475");
 			// Connection conn =
 			// DriverManager.getConnection("jdbc:mysql://localhost:3306/photography",
 			// "root", "root");
