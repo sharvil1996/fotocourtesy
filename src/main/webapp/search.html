@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+<meta name="viewport"
+	content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+<title>Welcome | FotoCourtesty</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="imgs/favicon.ico">
+<link rel="icon" type="image/png" href="imgs/favicon.png" sizes="256x256">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+</head>
+<body>	
+<header>
+  <div class="container">
+		<a href="#" class="logo"><img src="imgs/logo.svg" alt=""/></a>
+		<div class="navpanel">
+			<a href="join.html" class="navitem becomeamember">Become a Member</a>
+			<a href="login.jsp" class="navitem login">Login</a>
+			<a href="contact.html" class="navitem contact">Contact</a>
+		</div>
+		<div class="menubutton"><span></span><span></span><span></span></div>
+  </div>
+  <ul class="mobilemenu">
+  	<li style="background-color: white;cursor: auto;"><img src="imgs/Close.svg" class="mobilemenuclose"/></li>
+  </ul>
+</header>
+<section style="position: relative;min-height: 100px;">
+	<div class="gallery" style="z-index: 1;">
+		<div class="img1"></div>
+		<div class="img2"></div>
+		<div class="imgs">
+			<img src="imgs/1.jpeg"/>
+ 			<img src="imgs/2.jpeg"/>
+			<img src="imgs/3.jpeg"/>
+		</div>
+		<div class="darkblock"></div>
+	</div>
+	<div class="container" style="z-index: 2;position: relative;">
+		<br><br><br>
+		<div class="jumbotext medium tcenter longtext findaphotographernow">Find a photographer now</div>
+		<div class="row visible">
+			<div class="cl5">
+				<div class="form compact">
+					<div class="sugcontainer">
+						<input type="text" class="citysearchbox compact sugrep yourcity" placeholder="Your City">
+						<ul class="sugbox citysugbox" style="top:80%;left: -1px;">
+						</ul>
+						<input type="text" class="citybox sugtarget" style="display: none;">
+					</div>
+				</div>
+			</div>
+			<div class="cl5">
+				<div class="form compact">
+					<div class="sugcontainer">
+						<input type="text" class="categorysearchbox compact sugrep yourcategory" placeholder="Your Category">
+						<ul class="sugbox categorysugbox" style="top:80%;left: -1px;">
+						</ul>
+						<input type="text" class="categorybox sugtarget" style="display: none;">
+					</div>
+				</div>
+			</div>
+			<div class="cl2">
+				<button type="button" class="button full homepage searchButton search">Search</button>
+			</div>
+		</div>
+		<br><br><br><br><br>
+	</div>
+</section>
+<section class="backgrey nophotographer" style="display: none;">
+	<div class="container">
+		<div class="whitebg shadow">
+			<h1 style="padding: 100px 15px;" class="0photographersfound">0 Photographers found</h1>
+		</div>
+	</div>
+</section>
+<section class="backgrey photographerfound" style="display: none;">
+	<div class="container">
+		<h1><span class="photographerCount"></span> <span class="photographersfound">Photographers Found...</span></h1>
+		<div class="row photographerList">
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="cm4">
+				<a href="#"><img src="imgs/logo.svg" class="logo"></a>
+			</div>
+			<div class="cm8">
+				<div class="links">
+					<a href="join.html" class="becomeamember">Become a Member</a>
+					<a href="login.jsp" class="login">Login</a>
+					<a href="contact.html" class="contact">Contact</a>
+				</div>
+			</div>
+		</div>
+		<div class="flags tcenter">
+			<div class="flag english"><img src="imgs/flag britain.svg"/></div>
+			<div class="flag hindi"><img src="imgs/flag india.svg"/></div>
+			<div class="flag french"><img src="imgs/flag france.svg"/></div>
+			<div class="flag spanish"><img src="imgs/flag spain.svg"/></div>
+		</div>
+		<div style="text-align: center;opacity: 0.3;">
+			<a style="color:white;text-decoration: none;" href="http://deskofdesign.tk" target="_blank">Designed by &nbsp;<img src="imgs/dodlogo.svg" height="45" style="position: relative;top: 16px;">&nbsp;&nbsp;Desk of Design</a>
+		</div>
+	</div>
+</footer>
+<div class="fullloader"><img src="imgs/loading.svg"></div>
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jq.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/lang.js"></script>
+</body>
+</html>
